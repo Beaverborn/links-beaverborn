@@ -105,7 +105,7 @@ h1 {
   font-weight: 800;
 }
 h1 {
-  font-size: 24px;
+  font-size: 32px;
   line-height: 64px;
   letter-spacing: 0;
 }
@@ -200,11 +200,11 @@ hr {
 50% (default): True circle
 */
 .avatar {
-  width: 128px;
-  height: 128px;
+  width: 180px;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   background-position: center;
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 /* open-sans-regular - vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic */
