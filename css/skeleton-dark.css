@@ -205,6 +205,7 @@ hr {
   object-fit: cover;
   background-position: center;
   border-radius: 30%;
+  margin-bottom: -1rem;
 }
 
 /* open-sans-regular - vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic */
