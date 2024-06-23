@@ -771,8 +771,6 @@ html {
   top: -250%;
 }
 .container-title {
-  width: 600px;
-  height: 450px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -785,6 +783,10 @@ html {
   align-items: center;
   flex-direction: column;
   display: flex;
+}
+.title {
+  display: inline-flex;
+  align-items: center;
 }
 .title > * {
   display: inline-block;
