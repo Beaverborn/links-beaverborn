@@ -31,9 +31,9 @@
 
 .button,
 button {
-  --grad-angle: 171deg;
-  --grad-start: 150, 23, 40;
-  --grad-end: 0, 0, 0;
+  --button-grad-angle: var(--global-button-grad-angle);
+  --button-grad-start: var(--global-button-grad-start);
+  --button-grad-end: var(--global-button-grad-end);
 
   display: inline-block;
   text-decoration: none;
@@ -84,7 +84,7 @@ button:hover,
 .button.button-default {
   color: #ffffff;
   background-color: rgb(150, 23, 40);
-  background-image: linear-gradient(var(--grad-angle), rgb(var(--grad-start)), rgba(var(--grad-end), 0.4));
+  background-image: linear-gradient(var(--button-grad-angle), rgb(var(--button-grad-start)), rgba(var(--button-grad-end), 0.4));
   border: 1px solid #FFFFFF;
 }
 .button.button-default:hover,
@@ -101,7 +101,7 @@ button:hover,
   background-size: cover;
   background-repeat: no-repeat;
   background-image: 
-    linear-gradient(var(--grad-angle), rgba(var(--grad-start), .25), rgba(var(--grad-end), .5)),
+    linear-gradient(var(--button-grad-angle), rgba(var(--button-grad-start), .25), rgba(var(--button-grad-end), .5)),
     url(https://lh3.googleusercontent.com/pw/AP1GczOlkWHUHJzWdfGkwqu8M5AYr3BRjFy-t-aEjULsPo5tQ8T0Ek-u2RWwkhfaiV2axvFmNstj64F35fgcIpu1JuJjkOtoJa8VP3cObiscIl9QHnWY6jY=w2400);
 }
 .button.button-photos:hover,

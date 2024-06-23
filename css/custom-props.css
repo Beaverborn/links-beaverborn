@@ -1,0 +1,11 @@
+:root {
+  /* Background Gradient for all pages */
+  --background-grad: linear-gradient(190deg, #030308 0%, #030308 20%, #382c81 75%, #2c4d54 100%);
+  /* Box Shadow for 404 page moon */
+  --moon-box-shadow: 0 0 10px #ebe5ff, 0 0 20px #ebe5ff, 0 0 30px #ebe5ff, 0 0 40px #ebe5ff, 0 0 70px #ebe5ff, 0 0 80px #ebe5ff, 0 0 100px #9127e7;
+
+  /* Gradient Values for Buttons */
+  --global-button-grad-angle: 171deg;
+  --global-button-grad-start: 150, 23, 40;
+  --global-button-grad-end: 0, 0, 0;
+}
