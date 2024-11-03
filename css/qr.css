@@ -1,0 +1,26 @@
+h1 {
+  margin-bottom: 1rem;
+  line-height: normal;
+  font-size: clamp(24px, calc(24px + 0.9vw), 32px);
+}
+
+/* Larger than tablet */
+@media (min-width: 550px) {
+  h1 {
+    font-size: clamp(32px, calc(32px + 1vw), 48px);
+  }
+}
+
+.qr {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh 10vw 0 10vw;
+  text-align: center;
+}
+
+.qr img {
+  object-fit: contain;
+  padding: 0 5vw;
+  max-height: 70vh;
+  aspect-ratio: 1;
+}
