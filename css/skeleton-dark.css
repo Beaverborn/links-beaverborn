@@ -103,6 +103,13 @@ body {
     sans-serif;
 }
 
+.timed {
+  display: none !important;
+}
+.timed + br {
+  display: none !important;
+}
+
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1 {
