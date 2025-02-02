@@ -847,10 +847,18 @@ button:hover,
 .button.button-spotify {
   color: #191414;
   background-color: #1db954;
+  border: 1px solid #FFFFFF;
 }
 .button.button-spotify:hover,
 .button.button-spotify:focus {
   filter: brightness(90%);
+}
+
+.celebration-scode {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/images/celebration-scode.svg);
 }
 
 /* Spotify Alt */
