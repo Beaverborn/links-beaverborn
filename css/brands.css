@@ -845,7 +845,8 @@ button:hover,
 
 /* Spotify */
 .button.button-spotify {
-  color: #191414;
+  /* color: #191414; */
+  color: #FFFFFF;
   background-color: #1db954;
   border: 1px solid #FFFFFF;
 }
@@ -855,8 +856,8 @@ button:hover,
 }
 
 .celebration-scode {
-  background-position: center;
-  background-size: contain;
+  background-position: 50% 90%;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-image: url(/images/celebration-scode.svg);
 }
