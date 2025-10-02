@@ -333,6 +333,7 @@ button:hover,
 .button.button-discord {
   color: #ffffff;
   background-color: #161CBB;
+  border: 1px solid #FFFFFF;
 }
 .button.button-discord:hover,
 .button.button-discord:focus {
