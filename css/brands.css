@@ -97,12 +97,12 @@ button:hover,
   color: #ffffff;
   background-color: rgb(150, 23, 40);
   border: 1px solid #FFFFFF;
-  background-position: 50% 48%;
-  background-size: cover;
+  background-position: 54% 46.5%;
+  background-size: 145%;
   background-repeat: no-repeat;
   background-image: 
     linear-gradient(var(--button-grad-angle), rgba(var(--button-grad-start), .25), rgba(var(--button-grad-end), .5)),
-    url(https://lh3.googleusercontent.com/pw/AP1GczPVd6JTmSM0841jTDRpWalw9caBTtXuTHVfbUR2JIjI1whwbZLeYfCPO0dy-KTmAEnQCp7Mmy9-gWp5IRLwqLcytgZ5uHh_qGhPRvb8t-R__KlQFPk=w2400);
+    url(https://lh3.googleusercontent.com/pw/AP1GczMpO8S47tbcvvZf6fAxI-RTpwpWy2SvPYfWH_d90hhbDYlFSTw1lk4qAM5lh-cGgisBLbxxAmEBP_R5y7uXqCL0vpB9EdmxXjeSyBiHhjqcEM5Ejzw=w2400);
 }
 .button.button-photos:hover,
 .button.button-photos:focus {
