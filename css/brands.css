@@ -856,11 +856,18 @@ button:hover,
   filter: brightness(90%);
 }
 
-.celebration-scode {
+.scode {
   background-position: 50% 90%;
   background-size: 60%;
   background-repeat: no-repeat;
+}
+
+#celebration {
   background-image: url(/images/celebration-scode.svg);
+}
+
+#beaver-born-2026 {
+  background-image: url(/images/beaver-born-2026-scode.svg);
 }
 
 /* Spotify Alt */
